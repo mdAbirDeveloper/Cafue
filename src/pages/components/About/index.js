@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutUsSection = () => {
   return (
-    <div className=" py-12 px-6 md:px-12 lg:px-24">
+    <div className=" py-12 px-6 md:px-12 lg:px-24 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-20">
         {/* Image Section */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">

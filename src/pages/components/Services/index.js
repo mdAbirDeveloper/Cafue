@@ -42,7 +42,7 @@ const services = [
 const ServiceCard = ({ title, description, icon, index, isVisible }) => {
   return (
     <div
-      className={`bg-white p-6 rounded-lg shadow-lg transition-all duration-500 ease-in-out transform ${
+      className={`bg-white text-black p-6 rounded-lg shadow-lg transition-all duration-500 ease-in-out transform ${
         isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       } hover:shadow-xl hover:-translate-y-2 hover:bg-yellow-500 hover:text-white`}
     >

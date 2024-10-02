@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="max-w-[1500px] mx-auto">
-        <nav className="bg-white shadow-md w-full">
+      <div className="bg-white">
+        <nav className=" max-w-[1500px] mx-auto shadow-md w-full">
           <div className="container mx-auto px-4 py-4 flex items-center justify-between">
             {/* Logo */}
             <div className="text-2xl font-bold text-gray-800">
@@ -52,7 +52,10 @@ const Navbar = () => {
               <Link href="/components/Blog" className="hover:text-gray-900">
                 Blog
               </Link>
-              <Link href="/components/Contact-us" className="hover:text-gray-900">
+              <Link
+                href="/components/Contact-us"
+                className="hover:text-gray-900"
+              >
                 Contact
               </Link>
             </div>

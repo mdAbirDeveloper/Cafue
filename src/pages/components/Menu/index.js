@@ -74,7 +74,7 @@ const Menu = () => {
         {itemsToShow.map((item) => (
           <div
             key={item.id}
-            className="relative bg-white border rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300"
+            className="relative bg-white text-black border rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300"
           >
             <img
               src={item.image}

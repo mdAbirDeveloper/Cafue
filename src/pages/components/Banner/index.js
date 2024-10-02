@@ -72,7 +72,8 @@ const CustomCarousel = () => {
   };
 
   return (
-    <div className="relative w-full overflow-hidden max-w-[1500px] mx-auto bg-yellow-50">
+    <div className=" bg-yellow-50">
+      <div className="relative w-full overflow-hidden max-w-[1500px] mx-auto">
       {/* Container with flexbox for responsive layout */}
       <div className="p-4 flex flex-col items-center md:flex-row">
         {/* Text Section */}
@@ -122,6 +123,7 @@ const CustomCarousel = () => {
           ></button>
         ))}
       </div>
+    </div>
     </div>
   );
 };
